@@ -1,9 +1,14 @@
+package by.tereshkoMN.bsu.model;
+
+import by.tereshkoMN.bsu.exception.AnimalException;
+
 import java.util.Objects;
 
 public class Animal {
-    private String name;
+    private final String name;
 
-    public Animal(String name) {
+    public Animal(String name) throws AnimalException {
+        if(name.isBlank()) throw  new AnimalException("Invalid name");
         this.name = name;
     }
 
@@ -26,7 +31,7 @@ public class Animal {
 
     @Override
     public String toString() {
-        return "Animal{" +
+        return "by.tereshkoMN.bsu.model.Animal{" +
                 "name='" + name + '\'' +
                 '}';
     }

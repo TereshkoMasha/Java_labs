@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>by.tereshkoMN.bsu.model.Main</OriginalElement>
+  <nodes>
+    <node x="0.0" y="476.0">by.tereshkoMN.bsu.model.Puppy</node>
+    <node x="280.5" y="215.0">by.tereshkoMN.bsu.exception.AnimalException</node>
+    <node x="287.5" y="319.0">by.tereshkoMN.bsu.exception.DogException</node>
+    <node x="0.0" y="194.0">by.tereshkoMN.bsu.model.Dog</node>
+    <node x="0.0" y="0.0">by.tereshkoMN.bsu.model.Animal</node>
+    <node x="568.0" y="0.0">by.tereshkoMN.bsu.model.Main</node>
+    <node x="219.0" y="0.0">java.lang.Exception</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="by.tereshkoMN.bsu.model.Dog" target="by.tereshkoMN.bsu.model.Animal">
+      <point x="0.0" y="-116.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+    <edge source="by.tereshkoMN.bsu.model.Puppy" target="by.tereshkoMN.bsu.model.Dog">
+      <point x="0.0" y="-71.5" />
+      <point x="0.0" y="116.0" />
+    </edge>
+    <edge source="by.tereshkoMN.bsu.exception.DogException" target="by.tereshkoMN.bsu.exception.AnimalException">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="by.tereshkoMN.bsu.exception.AnimalException" target="java.lang.Exception">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="82.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6416275430359938" x="458.5" y="309.5" />
+  <SelectedNodes>
+    <node>by.tereshkoMN.bsu.model.Main</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
